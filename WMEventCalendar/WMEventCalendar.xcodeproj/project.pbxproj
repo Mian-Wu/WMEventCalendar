@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA804590207F587B0015CEC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA80458F207F587B0015CEC6 /* AppDelegate.m */; };
+		BA804593207F587B0015CEC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA804592207F587B0015CEC6 /* ViewController.m */; };
+		BA804596207F587B0015CEC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA804594207F587B0015CEC6 /* Main.storyboard */; };
+		BA804598207F587B0015CEC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA804597207F587B0015CEC6 /* Assets.xcassets */; };
+		BA80459B207F587B0015CEC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA804599207F587B0015CEC6 /* LaunchScreen.storyboard */; };
+		BA80459E207F587B0015CEC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA80459D207F587B0015CEC6 /* main.m */; };
+		BA8045A8207F587B0015CEC6 /* WMEventCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8045A7207F587B0015CEC6 /* WMEventCalendarTests.m */; };
+		BA8045B3207F587B0015CEC6 /* WMEventCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8045B2207F587B0015CEC6 /* WMEventCalendarUITests.m */; };
+		BA8045C5207F5AB50015CEC6 /* WMEventCalendarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8045C4207F5AB50015CEC6 /* WMEventCalendarTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA8045A4207F587B0015CEC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA804583207F587B0015CEC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA80458A207F587B0015CEC6;
+			remoteInfo = WMEventCalendar;
+		};
+		BA8045AF207F587B0015CEC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA804583207F587B0015CEC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA80458A207F587B0015CEC6;
+			remoteInfo = WMEventCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA80458B207F587B0015CEC6 /* WMEventCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMEventCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA80458E207F587B0015CEC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA80458F207F587B0015CEC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA804591207F587B0015CEC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA804592207F587B0015CEC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA804595207F587B0015CEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA804597207F587B0015CEC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA80459A207F587B0015CEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA80459C207F587B0015CEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA80459D207F587B0015CEC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA8045A3207F587B0015CEC6 /* WMEventCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMEventCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8045A7207F587B0015CEC6 /* WMEventCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMEventCalendarTests.m; sourceTree = "<group>"; };
+		BA8045A9207F587B0015CEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8045AE207F587B0015CEC6 /* WMEventCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMEventCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8045B2207F587B0015CEC6 /* WMEventCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMEventCalendarUITests.m; sourceTree = "<group>"; };
+		BA8045B4207F587B0015CEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8045C3207F5AB50015CEC6 /* WMEventCalendarTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMEventCalendarTool.h; sourceTree = "<group>"; };
+		BA8045C4207F5AB50015CEC6 /* WMEventCalendarTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMEventCalendarTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA804588207F587B0015CEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8045A0207F587B0015CEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8045AB207F587B0015CEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA804582207F587B0015CEC6 = {
+			isa = PBXGroup;
+			children = (
+				BA80458D207F587B0015CEC6 /* WMEventCalendar */,
+				BA8045A6207F587B0015CEC6 /* WMEventCalendarTests */,
+				BA8045B1207F587B0015CEC6 /* WMEventCalendarUITests */,
+				BA80458C207F587B0015CEC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA80458C207F587B0015CEC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA80458B207F587B0015CEC6 /* WMEventCalendar.app */,
+				BA8045A3207F587B0015CEC6 /* WMEventCalendarTests.xctest */,
+				BA8045AE207F587B0015CEC6 /* WMEventCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA80458D207F587B0015CEC6 /* WMEventCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				BA80458E207F587B0015CEC6 /* AppDelegate.h */,
+				BA80458F207F587B0015CEC6 /* AppDelegate.m */,
+				BA804591207F587B0015CEC6 /* ViewController.h */,
+				BA804592207F587B0015CEC6 /* ViewController.m */,
+				BA804594207F587B0015CEC6 /* Main.storyboard */,
+				BA804597207F587B0015CEC6 /* Assets.xcassets */,
+				BA804599207F587B0015CEC6 /* LaunchScreen.storyboard */,
+				BA80459C207F587B0015CEC6 /* Info.plist */,
+				BA80459D207F587B0015CEC6 /* main.m */,
+				BA8045C3207F5AB50015CEC6 /* WMEventCalendarTool.h */,
+				BA8045C4207F5AB50015CEC6 /* WMEventCalendarTool.m */,
+			);
+			path = WMEventCalendar;
+			sourceTree = "<group>";
+		};
+		BA8045A6207F587B0015CEC6 /* WMEventCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8045A7207F587B0015CEC6 /* WMEventCalendarTests.m */,
+				BA8045A9207F587B0015CEC6 /* Info.plist */,
+			);
+			path = WMEventCalendarTests;
+			sourceTree = "<group>";
+		};
+		BA8045B1207F587B0015CEC6 /* WMEventCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8045B2207F587B0015CEC6 /* WMEventCalendarUITests.m */,
+				BA8045B4207F587B0015CEC6 /* Info.plist */,
+			);
+			path = WMEventCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA80458A207F587B0015CEC6 /* WMEventCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8045B7207F587B0015CEC6 /* Build configuration list for PBXNativeTarget "WMEventCalendar" */;
+			buildPhases = (
+				BA804587207F587B0015CEC6 /* Sources */,
+				BA804588207F587B0015CEC6 /* Frameworks */,
+				BA804589207F587B0015CEC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMEventCalendar;
+			productName = WMEventCalendar;
+			productReference = BA80458B207F587B0015CEC6 /* WMEventCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA8045A2207F587B0015CEC6 /* WMEventCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8045BA207F587B0015CEC6 /* Build configuration list for PBXNativeTarget "WMEventCalendarTests" */;
+			buildPhases = (
+				BA80459F207F587B0015CEC6 /* Sources */,
+				BA8045A0207F587B0015CEC6 /* Frameworks */,
+				BA8045A1207F587B0015CEC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8045A5207F587B0015CEC6 /* PBXTargetDependency */,
+			);
+			name = WMEventCalendarTests;
+			productName = WMEventCalendarTests;
+			productReference = BA8045A3207F587B0015CEC6 /* WMEventCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA8045AD207F587B0015CEC6 /* WMEventCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8045BD207F587B0015CEC6 /* Build configuration list for PBXNativeTarget "WMEventCalendarUITests" */;
+			buildPhases = (
+				BA8045AA207F587B0015CEC6 /* Sources */,
+				BA8045AB207F587B0015CEC6 /* Frameworks */,
+				BA8045AC207F587B0015CEC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8045B0207F587B0015CEC6 /* PBXTargetDependency */,
+			);
+			name = WMEventCalendarUITests;
+			productName = WMEventCalendarUITests;
+			productReference = BA8045AE207F587B0015CEC6 /* WMEventCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA804583207F587B0015CEC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = wumian;
+				TargetAttributes = {
+					BA80458A207F587B0015CEC6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					BA8045A2207F587B0015CEC6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA80458A207F587B0015CEC6;
+					};
+					BA8045AD207F587B0015CEC6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA80458A207F587B0015CEC6;
+					};
+				};
+			};
+			buildConfigurationList = BA804586207F587B0015CEC6 /* Build configuration list for PBXProject "WMEventCalendar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA804582207F587B0015CEC6;
+			productRefGroup = BA80458C207F587B0015CEC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA80458A207F587B0015CEC6 /* WMEventCalendar */,
+				BA8045A2207F587B0015CEC6 /* WMEventCalendarTests */,
+				BA8045AD207F587B0015CEC6 /* WMEventCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA804589207F587B0015CEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA80459B207F587B0015CEC6 /* LaunchScreen.storyboard in Resources */,
+				BA804598207F587B0015CEC6 /* Assets.xcassets in Resources */,
+				BA804596207F587B0015CEC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8045A1207F587B0015CEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8045AC207F587B0015CEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA804587207F587B0015CEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8045C5207F5AB50015CEC6 /* WMEventCalendarTool.m in Sources */,
+				BA804593207F587B0015CEC6 /* ViewController.m in Sources */,
+				BA80459E207F587B0015CEC6 /* main.m in Sources */,
+				BA804590207F587B0015CEC6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA80459F207F587B0015CEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8045A8207F587B0015CEC6 /* WMEventCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8045AA207F587B0015CEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8045B3207F587B0015CEC6 /* WMEventCalendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA8045A5207F587B0015CEC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA80458A207F587B0015CEC6 /* WMEventCalendar */;
+			targetProxy = BA8045A4207F587B0015CEC6 /* PBXContainerItemProxy */;
+		};
+		BA8045B0207F587B0015CEC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA80458A207F587B0015CEC6 /* WMEventCalendar */;
+			targetProxy = BA8045AF207F587B0015CEC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA804594207F587B0015CEC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA804595207F587B0015CEC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA804599207F587B0015CEC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA80459A207F587B0015CEC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA8045B5207F587B0015CEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA8045B6207F587B0015CEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA8045B8207F587B0015CEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMEventCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumian.lunbo.WMEventCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA8045B9207F587B0015CEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMEventCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumian.lunbo.WMEventCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA8045BB207F587B0015CEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMEventCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumian.lunbo.WMEventCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WMEventCalendar.app/WMEventCalendar";
+			};
+			name = Debug;
+		};
+		BA8045BC207F587B0015CEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMEventCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumian.lunbo.WMEventCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WMEventCalendar.app/WMEventCalendar";
+			};
+			name = Release;
+		};
+		BA8045BE207F587B0015CEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMEventCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumian.lunbo.WMEventCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WMEventCalendar;
+			};
+			name = Debug;
+		};
+		BA8045BF207F587B0015CEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMEventCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumian.lunbo.WMEventCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WMEventCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA804586207F587B0015CEC6 /* Build configuration list for PBXProject "WMEventCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8045B5207F587B0015CEC6 /* Debug */,
+				BA8045B6207F587B0015CEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8045B7207F587B0015CEC6 /* Build configuration list for PBXNativeTarget "WMEventCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8045B8207F587B0015CEC6 /* Debug */,
+				BA8045B9207F587B0015CEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8045BA207F587B0015CEC6 /* Build configuration list for PBXNativeTarget "WMEventCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8045BB207F587B0015CEC6 /* Debug */,
+				BA8045BC207F587B0015CEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8045BD207F587B0015CEC6 /* Build configuration list for PBXNativeTarget "WMEventCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8045BE207F587B0015CEC6 /* Debug */,
+				BA8045BF207F587B0015CEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA804583207F587B0015CEC6 /* Project object */;
+}
